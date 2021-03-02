@@ -4,6 +4,7 @@ const Comp = () => {
   return (
     <div>
       <h1>Yeader</h1>
+      <h1>Leddes</h1>
     </div>
   );
 };
