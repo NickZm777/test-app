@@ -1,5 +1,16 @@
+import { GET_NEWS_DATA } from './actions';
+
+const ACTION_HANDLERS = {
+  [GET_NEWS_DATA]: (state, action) => {
+    return {
+      ...state,
+      newsData: action.candleData,
+    };
+  },
+};
+
 const initialState = {
-  historyData: [],
+  newsData: [],
 };
 
 export default (state = initialState, action) => {
