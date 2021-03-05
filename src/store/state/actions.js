@@ -20,7 +20,7 @@ export function getNewsFeedData() {
       });
       dispatch({
         type: GET_NEWS_DATA,
-        candleData: dataArray,
+        newsData: dataArray,
       });
     });
   };
